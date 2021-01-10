@@ -1,0 +1,45 @@
+/* Layout: general positioning on the page
+Elements such as header, footer, nav, aside */
+
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  padding-right: 2px;
+}
+
+#logo {
+  float: left;
+  padding-bottom: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
+}
+
+aside {
+  padding-top: 30px;
+  padding-bottom: 60px
+}
+
+section hr {
+  border-bottom: 1px solid #eee;
+  height: 0;
+}
+
